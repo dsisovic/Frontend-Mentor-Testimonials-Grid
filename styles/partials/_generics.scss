@@ -1,0 +1,49 @@
+.generic__block {
+    padding: 0.5em 2em 2em 2em;
+}
+
+.generic__img {
+    display: flex;
+    margin-top: 1em;
+
+    img {
+        border-radius: 50%;
+        border: 3px solid rgba($white, 0.5);
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.generic__usertext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 1em;
+
+    h6 {
+        color: $white;
+        font-size: 0.9rem;
+    }
+
+    p {
+        color: rgba($white, 0.5);
+        font-size: 0.7rem;
+    }
+}
+
+.generic__quote {
+    margin: 1em 0;
+
+    h5 {
+        font-size: 1.4rem;
+        color: $white;
+    }
+}
+
+.generic__conclusion {
+    h5 {
+        font-size: 0.95rem;
+        color: rgba($white, 0.5);
+        font-weight: 300;
+    }
+}
