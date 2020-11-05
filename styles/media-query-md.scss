@@ -1,0 +1,35 @@
+@import "./partials/variables";
+
+@media only screen and (max-width: $media-query-md) {
+    .main {
+        padding: 5em 0;
+        grid-template: repeat(5, auto) / 1fr;
+
+        .block {
+            &__top-left {
+                grid-row: 1 / 2;
+                grid-column: 1 / 2;
+            }
+
+            &__top-middle {
+                grid-row: 2 / 3;
+                grid-column: 1 / 2;
+            }
+
+            &__bottom-left {
+                grid-row: 3 / 4;
+                grid-column: 1 / 2;
+            }
+
+            &__bottom-right {
+                grid-row: 4 / 5;
+                grid-column: 1 / 2;
+            }
+
+            &__end {
+                grid-row: 5 / 6;
+                grid-column: 1 / 2;
+            }
+        }
+    }
+}
